@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>apache-any23-html-scraper</name>
+  <comment>Any23 plugin for scraping HTML code. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>apache-any23-core</project>
+    <project>apache-any23-api</project>
+    <project>apache-any23-csvutils</project>
+    <project>apache-any23-mime</project>
+    <project>apache-any23-encoding</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.eclipse.m2e.core.maven2Builder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+    <nature>org.eclipse.m2e.core.maven2Nature</nature>
+  </natures>
+</projectDescription>
